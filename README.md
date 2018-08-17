@@ -1,0 +1,2 @@
+# LearningFCC
+Self studying @ freeCodeCamp
