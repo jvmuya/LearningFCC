@@ -1,0 +1,39 @@
+<style>
+	.inject-text {
+		margin-bottom: -25px;
+		text-align: center;
+	}
+	.box {
+		border-style: solid;
+		border-color: black;
+		border-width: 5px;
+		text-align: center;
+	}
+	.yellow-box {
+		background-color: yellow;
+		padding: 20px 40px 20px 40px;
+	}
+	/* we can specify the padding by using the TOP.RIGHT.LEFT.BOTTOM */
+	.red-box {
+		background-color: crimson;
+		color: #fff;
+		margin: 20px 40px 20px 40px;
+		/* padding-top: 40px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px; */
+		padding: 1.5em;
+	}
+	/* instead of specifying padding with different lines
+	we can use the CLOCKWISE NOTATION(top-right-bottom-left)
+	with specifying eg. padding: 40px 40px 40px 40px */
+	.green-box {
+		background-color: green;
+		margin: 20px 40px 20px 40px;
+	}
+</style>
+<h5 class="inject-text">margin</h5>
+<div class="box yellow-box">
+	<h5 class="box red-box">padding</h5>
+	<h5 class="box green-box">padding</h5>
+</div>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<h2>CatPhotoApp</h2>
+<main>
+	<p>Click here to view more <a href="#">Cat photos</a>.</p>
+
+	<a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="cute orange cat lying on its back."></a>
+
+	<p>Things cats love:</p>
+	<ul>
+		<li>milk</li>
+		<li>mouse</li>
+		<li>ball</li>
+	</ul>
+
+	<p>Top 3 things cats hate:</p>
+	<ol>
+		<li>dogs</li>
+		<li>snake</li>
+		<li>lions</li>
+	</ol>
+	<form action="/submit-cat-photo">
+		<label for="indoor">
+			<input id="indoor" type="radio" name="indoor-outdoor">Indoor
+		</label>
+		<label for="outdoor">
+			<input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+		</label>
+		<label for="happy">
+			<input id="happy" type="checkbox" name="personality">Happy
+		</label>
+		<label for="sad">
+			<input id="sad" type="checkbox" name="personality">Sad
+		</label>
+		<label for="good">
+			<input id="good" type="checkbox" name="personality">Good
+		</label>
+		<input type="text" placeholder="User ID" required>
+		<button type="submit">Submit</button>
+	</form>
+	
+</main>
